@@ -1,20 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-users',
-  template: `
-    <p>
-      users works!
-    </p>
-  `,
-  styles: [
-  ]
+  selector: "app-users",
+  template: ` <p>users works!</p> `,
+  styles: [],
 })
 export class UsersComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
