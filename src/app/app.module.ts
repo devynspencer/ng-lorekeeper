@@ -9,9 +9,10 @@ import { environment } from "@env/environment";
 import { AppRoutingModule } from "@app/app-routing.module";
 import { AppComponent } from "@app/app.component";
 import { reducers, metaReducers } from "@app/reducers";
+import { UsersComponent } from "@app/users/users.component";
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, UsersComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
